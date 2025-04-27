@@ -14,7 +14,7 @@ Any changes you make to your deployed app will be automatically pushed to this r
 
 Your project is live at:
 
-**[https://vercel.com/kapischs-projects/v0-netflix-movie-suggestions](https://vercel.com/kapischs-projects/v0-netflix-movie-suggestions)**
+**(https://mood-netflix.vercel.app/)**
 
 ## Build your app
 
