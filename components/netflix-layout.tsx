@@ -8,8 +8,8 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   return (
-    <ThemeProvider attribute="class" defaultTheme="dark">
-      <div className="min-h-screen">
+    <ThemeProvider attribute="class" defaultTheme="dark" forcedTheme="dark">
+      <div className="min-h-screen bg-netflix-black text-netflix-light">
         <Header />
         <main className="pt-16">{children}</main>
       </div>

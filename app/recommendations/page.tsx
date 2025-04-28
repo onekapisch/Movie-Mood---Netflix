@@ -1,5 +1,11 @@
+import type { Metadata } from "next"
 import Layout from "@/components/netflix-layout"
 import RecommendationEngine from "@/components/recommendation-engine"
+
+export const metadata: Metadata = {
+  title: "Get Recommendations - MovieMood",
+  description: "Find personalized movie recommendations based on your mood and preferences.",
+}
 
 export default function RecommendationsPage() {
   return (

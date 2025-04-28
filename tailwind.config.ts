@@ -54,6 +54,10 @@ const config = {
         },
         netflix: {
           red: "#E50914",
+          black: "#141414",
+          dark: "#0A0A0A",
+          gray: "#808080",
+          light: "#E5E5E5",
         },
       },
       borderRadius: {
