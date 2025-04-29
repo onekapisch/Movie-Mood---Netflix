@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "MovieMood - Find Movies Based on Your Mood",
+  title: "MovieMood by Kapisch",
   description: "Discover the perfect movie for your current mood with MovieMood. No more endless scrolling.",
   icons: {
     icon: "/favicon.ico",
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="dark">
+    <html lang="en" suppressHydrationWarning className="dark">
+      <body className={`${inter.className} bg-netflix-black text-netflix-light`}>
+        <ThemeProvider attribute="class" defaultTheme="dark" forcedTheme="dark" enableSystem={false}>
           {children}
         </ThemeProvider>
       </body>

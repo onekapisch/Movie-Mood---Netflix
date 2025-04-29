@@ -54,11 +54,14 @@ const config = {
         },
         netflix: {
           red: "#E50914",
-          black: "#141414",
-          dark: "#0A0A0A",
+          black: "#000000", // Pure black
+          dark: "#0A0A0A", // Very dark black
           gray: "#808080",
           light: "#E5E5E5",
         },
+      },
+      backgroundColor: {
+        black: "#000000", // Ensure black is truly black
       },
       borderRadius: {
         lg: "var(--radius)",
